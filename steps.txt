@@ -1,0 +1,10 @@
+1. console.firebase.google.com
+2. add project (project name, disable google analytics, continue
+3. realtime database> default location>locked> rules edit> write: false to true
+4. firestore database> default location > rules edit like this
+allow read: if false;
+allow write : if true;
+5. project overview> click </> icon (web)
+6. register app (no need hosting to turn on)
+7. use script tag
+8. copy const firebase config only and paste in the mail.js file
